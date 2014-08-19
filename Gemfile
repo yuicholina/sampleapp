@@ -46,3 +46,5 @@ end
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 gem 'capybara'
+gem 'bootstrap-sass','2.3.2.0'
+gem 'sprockets','2.11.0'
