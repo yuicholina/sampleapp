@@ -41,6 +41,7 @@ gem 'spring',        group: :development
 group :test do
   gem "rspec-rails", "~> 2.6"
   gem 'guard-rspec', "~> 2.5.0"
+  gem 'factory_girl_rails','4.2.1'
 end
 
 gem 'execjs'
