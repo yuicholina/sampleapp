@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
+
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use SCSS for stylesheets
@@ -40,6 +41,7 @@ gem 'spring',        group: :development
 
 group :test do
   gem "rspec-rails", "~> 2.6"
+  gem "rspec-its"
   gem 'guard-rspec', "~> 2.5.0"
   gem 'factory_girl_rails','4.2.1'
 end
@@ -50,3 +52,6 @@ gem 'capybara'
 gem 'bootstrap-sass','2.3.2.0'
 gem 'sprockets','2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'faker','1.1.2'
+gem 'will_paginate','3.0.4'
+gem 'bootstrap-will_paginate','0.0.9'
