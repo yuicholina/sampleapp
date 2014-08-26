@@ -36,6 +36,9 @@ describe User do
   it{ should respond_to(:feed) }
   it{ should respond_to(:relationships) }
 
+  it{ should respond_to(:relationships) }
+  it{ should respond_to(:followed_users) }
+
 
 
   describe "with admin attribute set to 'true'" do
